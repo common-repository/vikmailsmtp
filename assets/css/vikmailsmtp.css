@@ -1,0 +1,110 @@
+/** VikMailSMTP - VikWP.com **/
+
+.vikmailsmtp-menu-container {
+	margin: 30px 0 20px 10px;
+	padding: 0 0 0 45px;
+	background: #0086be;
+}
+.vikmailsmtp-menu-entry {
+	display: inline-block;
+	padding: 10px 15px;
+}
+.vikmailsmtp-menu-entry-active, .vikmailsmtp-menu-entry:hover {
+	background: #025c81;
+}
+.vikmailsmtp-menu-entry a {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+}
+.vikmailsmtp-menu-logo {
+	margin-left: -55px;
+	position: absolute;
+	margin-top: -20px;
+}
+.vikmailsmtp-menu-logo a:active,
+.vikmailsmtp-menu-logo a:focus,
+.vikmailsmtp-menu-entry a:active,
+.vikmailsmtp-menu-entry a:focus {
+	box-shadow: none;
+}
+.vikmailsmtp-menu-logo a {
+	background-image: url('../images/vikwp.png');
+	background-repeat: no-repeat;
+	background-size: auto 70px;
+	width: 50px;
+	height: 70px;
+	display: inline-block;
+}
+.vikmailsmtp-wizard-inner {
+	width: 50%;
+	margin: -1500px auto 0 auto;
+	text-align: center;
+	border: 1px solid #ddd;
+	background: #fff;
+}
+.vikmailsmtp-wizard-inner.vms-enterpage {
+	transition: margin 500ms;
+	margin-top: 0;
+}
+.vms-hide {
+	display: none;
+}
+.vikmailsmtp-provider {
+	display: inline-block;
+	margin: 0 0 10px 0;
+}
+.vikmailsmtp-provider-title img {
+	max-width: 128px;
+}
+.vikmailsmtp-provider-title {
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.vikmailsmtp-wizard-email > div {
+	margin: 15px;
+}
+.vikmailsmtp-wizard-container {
+	margin-top: 15px;
+}
+.vikmailsmtp-wizard-providers ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 5px 5px;
+}
+.vikmailsmtp-wizard-providers ul li {
+	display: inline-block;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 20px;
+	margin: 5px;
+	flex: 1;
+}
+.vikmailsmtp-wizard-providers ul li:hover {
+	border-color: #0086be;
+}
+.vikmailsmtp-wizard-providers ul li:last-child .vikmailsmtp-provider-title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.vikmailsmtp-wizard-complete > .vikmailsmtp-wizard-complete-data {
+	display: table;
+	width: 400px;
+	text-align: left;
+	margin: 0 auto;
+}
+.vikmailsmtp-wizard-complete-data > span {
+	display: inline-block;
+	text-align: left;
+}
+.vikmailsmtp-wizard-complete-data > .vikmailsmtp-param-title {
+	min-width: 150px;
+	font-weight: bold;
+}
+.vms-log-error {
+	color: #b00;
+}
